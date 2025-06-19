@@ -4,8 +4,8 @@ plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
     id("kotlin-kapt")
-    id("com.google.devtools.ksp") version "1.9.22-1.0.17"
-    kotlin("plugin.serialization") version "1.9.22"
+    id("com.google.devtools.ksp") version "2.1.21-2.0.1"
+    kotlin("plugin.serialization") version "2.1.21"
 }
 
 android {

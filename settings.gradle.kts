@@ -18,18 +18,6 @@ dependencyResolutionManagement {
     }
 }
 
-buildscript {
-    repositories {
-        mavenCentral()
-        maven {
-            url = uri("https://storage.googleapis.com/r8-releases/raw")
-        }
-    }
-    dependencies {
-        classpath("com.android.tools:r8:8.2.47")
-    }
-}
-
 rootProject.name = "Shamrock"
 include(
     ":app",
